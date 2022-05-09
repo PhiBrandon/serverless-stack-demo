@@ -1,4 +1,4 @@
-import MyStack from "./MyStack";
+import MyStack from "./StorageStack";
 
 export default function main(app) {
   // Set default runtime for all functions
@@ -6,7 +6,7 @@ export default function main(app) {
     runtime: "nodejs14.x"
   });
 
-  new MyStack(app, "my-stack");
+  new MyStack(app, "storage");
 
   // Add more stacks
 }
